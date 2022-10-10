@@ -99,18 +99,18 @@ export const WETH = {
     'WBRISE',
     'Wrapped Brise'
   ),
-  [ChainId.DOGE]: new Token(
-    ChainId.DOGE,
+  [ChainId.EXZO]: new Token(
+    ChainId.EXZO,
     '0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101',
     18,
-    'WDOGE',
-    'Wrapped Doge'
+    'WXZO',
+    'Wrapped EXZO'
   ),
-  [ChainId.DOKEN]: new Token(
-      ChainId.DOKEN,
+  [ChainId.TEXZO]: new Token(
+      ChainId.TEXZO,
       '0x27b45bCC26e01Ed50B4080A405D1c492FEe89d63',
       18,
-      'WDKN',
-      'Wrapped DoKEN'
+      'WXZO',
+      'Wrapped EXZO'
   )
 }

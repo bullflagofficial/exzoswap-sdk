@@ -10,8 +10,8 @@ export enum ChainId {
   GÖRLI = 5,
   KOVAN = 42,
   BITGERT = 32520,
-  DOGE = 2000,
-  DOKEN = 61916,
+  EXZO = 1229,
+  TEXZO = 2370,
 }
 
 export enum TradeType {
