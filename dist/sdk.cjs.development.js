@@ -41,8 +41,8 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0x9E6d21E759A7A288b80eef94E4737D313D31c13f';
-var INIT_CODE_HASH = '0x58c1b429d0ffdb4407396ae8118c58fed54898473076d0394163ea2198f7c4a3';
+var FACTORY_ADDRESS = '0x18298B96d5f6052193d888f4BDC791DDc340C129';
+var INIT_CODE_HASH = '0x7b7ac8e0cea3973ea8814c3804fb8edc6ec4d9b10fb534da1d30e2206084afb1';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -452,7 +452,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.ROPSTEN] = /*#__PURE__*/new Token(exports.ChainId.ROPSTEN, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.RINKEBY] = /*#__PURE__*/new Token(exports.ChainId.RINKEBY, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.GÖRLI] = /*#__PURE__*/new Token(exports.ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.KOVAN] = /*#__PURE__*/new Token(exports.ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.BITGERT] = /*#__PURE__*/new Token(exports.ChainId.BITGERT, '0x0eb9036cbE0f052386f36170c6b07eF0a0E3f710', 18, 'WBRISE', 'Wrapped Brise'), _WETH[exports.ChainId.EXZO] = /*#__PURE__*/new Token(exports.ChainId.EXZO, '0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101', 18, 'WXZO', 'Wrapped EXZO'), _WETH[exports.ChainId.TEXZO] = /*#__PURE__*/new Token(exports.ChainId.TEXZO, '0x27b45bCC26e01Ed50B4080A405D1c492FEe89d63', 18, 'WXZO', 'Wrapped EXZO'), _WETH);
+var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.ROPSTEN] = /*#__PURE__*/new Token(exports.ChainId.ROPSTEN, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.RINKEBY] = /*#__PURE__*/new Token(exports.ChainId.RINKEBY, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.GÖRLI] = /*#__PURE__*/new Token(exports.ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.KOVAN] = /*#__PURE__*/new Token(exports.ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'), _WETH[exports.ChainId.BITGERT] = /*#__PURE__*/new Token(exports.ChainId.BITGERT, '0x0eb9036cbE0f052386f36170c6b07eF0a0E3f710', 18, 'WBRISE', 'Wrapped Brise'), _WETH[exports.ChainId.EXZO] = /*#__PURE__*/new Token(exports.ChainId.EXZO, '0x8C8Af38370509937d43615AA55F8cC5964675652', 18, 'WXZO', 'Wrapped EXZO'), _WETH[exports.ChainId.TEXZO] = /*#__PURE__*/new Token(exports.ChainId.TEXZO, '0x8C8Af38370509937d43615AA55F8cC5964675652', 18, 'WXZO', 'Wrapped EXZO'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);

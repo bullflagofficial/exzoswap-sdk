@@ -101,14 +101,14 @@ export const WETH = {
   ),
   [ChainId.EXZO]: new Token(
     ChainId.EXZO,
-    '0xb7ddc6414bf4f5515b52d8bdd69973ae205ff101',
+    '0x8C8Af38370509937d43615AA55F8cC5964675652',
     18,
     'WXZO',
     'Wrapped EXZO'
   ),
   [ChainId.TEXZO]: new Token(
       ChainId.TEXZO,
-      '0x27b45bCC26e01Ed50B4080A405D1c492FEe89d63',
+      '0x8C8Af38370509937d43615AA55F8cC5964675652',
       18,
       'WXZO',
       'Wrapped EXZO'
