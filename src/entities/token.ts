@@ -92,13 +92,6 @@ export const WETH = {
     'WETH',
     'Wrapped Ether'
   ),
-  [ChainId.BITGERT]: new Token(
-    ChainId.BITGERT,
-    '0x0eb9036cbE0f052386f36170c6b07eF0a0E3f710',
-    18,
-    'WBRISE',
-    'Wrapped Brise'
-  ),
   [ChainId.EXZO]: new Token(
     ChainId.EXZO,
     '0xC1128CB655cB12A67228505a86c6C867033215fF',

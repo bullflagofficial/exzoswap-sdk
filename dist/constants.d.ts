@@ -6,7 +6,6 @@ export declare enum ChainId {
     RINKEBY = 4,
     GÖRLI = 5,
     KOVAN = 42,
-    BITGERT = 32520,
     EXZO = 1229,
     TEXZO = 2370
 }
